@@ -1,0 +1,27 @@
+2026-11-10 23:06:30+0530: Running with following config:
+maxVisits = 64
+numAnalysisThreads = 1
+numEigenThreadsPerModel = 2
+numSearchThreads = 4
+reportAnalysisWinratesAs = SIDETOMOVE
+
+2026-11-10 23:06:30+0530: Analysis Engine starting...
+2026-11-10 23:06:30+0530: KataGo v1.16.3
+2026-11-10 23:06:31+0530: nnRandSeed0 = 16145596942400374575
+2026-11-10 23:06:31+0530: After dedups: nnModelFile0 = <workspace>\outputs\Go_Project\reference_engine\network.txt.gz useFP16 auto useNHWC auto
+2026-11-10 23:06:31+0530: Initializing neural net buffer to be size 19 * 19 allowing smaller boards
+2026-11-10 23:06:35+0530: Eigen (CPU) backend thread 0: Model version 8
+2026-11-10 23:06:35+0530: Eigen (CPU) backend thread 0: Model name: b10c128-s1141046784-d204142634
+2026-11-10 23:06:35+0530: Eigen (CPU) backend thread 1: Model version 8
+2026-11-10 23:06:35+0530: Eigen (CPU) backend thread 1: Model name: b10c128-s1141046784-d204142634
+2026-11-10 23:06:35+0530: Loaded config <workspace>\outputs\Go_Project\reference_engine\project_analysis.cfg
+2026-11-10 23:06:35+0530: Loaded model <workspace>\outputs\Go_Project\reference_engine\network.txt.gz
+2026-11-10 23:06:35+0530: Analyzing up to 1 positions at a time in parallel
+2026-11-10 23:06:35+0530: Started, ready to begin handling requests
+2026-11-10 23:07:09+0530: <workspace>\outputs\Go_Project\reference_engine\network.txt.gz
+2026-11-10 23:07:09+0530: NN rows: 532
+2026-11-10 23:07:09+0530: NN batches: 421
+2026-11-10 23:07:09+0530: NN avg batch size: 1.26366
+2026-11-10 23:07:09+0530: GPU -1 finishing, processed 260 rows 205 batches
+2026-11-10 23:07:09+0530: GPU -1 finishing, processed 272 rows 216 batches
+2026-11-10 23:07:09+0530: All cleaned up, quitting

@@ -1,0 +1,5 @@
+model,engine_top1_matches,engine_top5_matches,positions
+logistic_regression,1,2,8
+random_forest,2,3,8
+mlp,2,5,8
+cnn,2,5,8

@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "feature_names": [
+    "row_edge",
+    "col_edge",
+    "corner_distance",
+    "centre_distance",
+    "stage",
+    "pass",
+    "friendly_adjacent",
+    "enemy_adjacent",
+    "empty_adjacent",
+    "captured_stones",
+    "saved_atari_stones",
+    "joined_stones",
+    "result_liberties",
+    "self_atari",
+    "enemy_atari_groups",
+    "last_move_distance",
+    "patch_0_0",
+    "patch_0_1",
+    "patch_0_2",
+    "patch_0_3",
+    "patch_0_4",
+    "patch_1_0",
+    "patch_1_1",
+    "patch_1_2",
+    "patch_1_3",
+    "patch_1_4",
+    "patch_2_0",
+    "patch_2_1",
+    "patch_2_2",
+    "patch_2_3",
+    "patch_2_4",
+    "patch_3_0",
+    "patch_3_1",
+    "patch_3_2",
+    "patch_3_3",
+    "patch_3_4",
+    "patch_4_0",
+    "patch_4_1",
+    "patch_4_2",
+    "patch_4_3",
+    "patch_4_4"
+  ],
+  "negative_samples_per_positive": 12,
+  "feature_preparation_seconds": 100.25313839999944,
+  "training_positions": 10240,
+  "candidate_training_rows": 133120,
+  "models": {
+    "logistic_regression": {
+      "training_seconds": 0.3540257999993628,
+      "bytes": 1926,
+      "parameters": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('logisticregression',\n                 LogisticRegression(C=1, class_weight='balanced', max_iter=300,\n                                    random_state=42))])"
+    },
+    "random_forest": {
+      "training_seconds": 7.82734100000016,
+      "bytes": 8110791,
+      "parameters": "RandomForestClassifier(class_weight='balanced', max_depth=16,\n                       min_samples_leaf=8, n_jobs=4, random_state=42)"
+    },
+    "mlp": {
+      "training_seconds": 21.334197100000893,
+      "bytes": 77432,
+      "parameters": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('mlpclassifier',\n                 MLPClassifier(batch_size=512, hidden_layer_sizes=(64, 32),\n                               max_iter=45, random_state=42))])",
+      "convergence_note": "Maximum 45 iterations reached; stochastic optimiser had not converged. See results/training_log.txt."
+    },
+    "cnn": {
+      "training_seconds": 63.01208079999924,
+      "bytes": 80773,
+      "epochs": 12,
+      "best_validation_loss": 3.250192165374756,
+      "selection": "lowest validation cross entropy",
+      "parameters": 19282
+    }
+  },
+  "note": "Candidate scores trained with sampled negatives are not calibrated move or win probabilities."
+}

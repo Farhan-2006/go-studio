@@ -1,0 +1,12 @@
+{
+  "Go_Project.py": "5971b0d6ea533104d112259522d6c3b5ee31505e26b9c8388c473f6bad7d56e2",
+  "models\\cnn.pt": "8d970958b290d6008544c21432e57fe95813980a464c687fef2501fbe397cb06",
+  "models\\logistic_regression.joblib": "3822f22a1ee69e71227ff1b7802e1982af93475792765e18c76c9fb05b9755fd",
+  "models\\mlp.joblib": "67e9d595970a6e01d6f43c55fab76a2364a2907ce4c2900dc1710e784219a881",
+  "models\\random_forest.joblib": "3b45cd67aa7676cce7970e0bcc678649406f21c41a9621288adde6ee79110efb",
+  "models\\training_metadata.json": "fcd5b9a8b7b0b930cf9bfb4a607ba9cbbc7f5c7b170962c19d71529fd6f633e8",
+  "data\\processed\\test.npz": "ca00740fb9441a09da0714b7afb7ac68f6e2d095e13b0dfc2f5046ffe7bdd536",
+  "data\\processed\\train.npz": "c6556c5450cfda3d5b7d8fff6b6e86ec3b47fb63523a0fdc2a02a18792b1a4fa",
+  "data\\processed\\validation.npz": "5723c553c61c0daf6cadc2bb3eb21f6da2f6bd731d80b1aa58642558054a8ef3",
+  "results/combined_metrics.csv": "88c391ac11ff0ca73bd2ddfdedd5eea2cb83b9f26a82c16957bc88e2e5889fc7"
+}

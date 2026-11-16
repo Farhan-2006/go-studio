@@ -1,0 +1,13 @@
+test_capture (__main__.selftest.<locals>.RulesTests.test_capture) ... ok
+test_coordinates (__main__.selftest.<locals>.RulesTests.test_coordinates) ... ok
+test_empty (__main__.selftest.<locals>.RulesTests.test_empty) ... ok
+test_feature_legality (__main__.selftest.<locals>.RulesTests.test_feature_legality) ... ok
+test_reference_rules (__main__.selftest.<locals>.RulesTests.test_reference_rules) ... ok
+test_suicide (__main__.selftest.<locals>.RulesTests.test_suicide) ... ok
+test_superko (__main__.selftest.<locals>.RulesTests.test_superko) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.884s
+
+OK
+Game split disjointness: PASS
