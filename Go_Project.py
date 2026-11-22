@@ -1,4 +1,11 @@
-"""19x19 Go move adviser. Run --help for reproducible training and evaluation."""
+"""19x19 Go move adviser. Run --help for reproducible training and evaluation.
+
+Team members
+Farhan Naik - 2410110422
+Hunar Bhatia - 2410110427
+Aniket Sharma - 2410110516
+Atul Kumar Arya - 2410110088
+"""
 from pathlib import Path
 import argparse, hashlib, json, time, tarfile, warnings, os
 os.environ.setdefault('OMP_NUM_THREADS', '4')

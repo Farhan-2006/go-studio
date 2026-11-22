@@ -1,5 +1,13 @@
 # Go move adviser
-Farhan Naik Â· 2410110422
+
+## Team members
+
+| Team member | Roll number |
+|---|---|
+| Farhan Naik | 2410110422 |
+| Hunar Bhatia | 2410110427 |
+| Aniket Sharma | 2410110516 |
+| Atul Kumar Arya | 2410110088 |
 
 ## Start here
 This is a Python 3.12 desktop application recommending a legal move on a 19Ã—19 Go board.

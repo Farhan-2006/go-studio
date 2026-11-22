@@ -1,5 +1,14 @@
 # Measured results
 
+## Team members
+
+| Team member | Roll number |
+|---|---|
+| Farhan Naik | 2410110422 |
+| Hunar Bhatia | 2410110427 |
+| Aniket Sharma | 2410110516 |
+| Atul Kumar Arya | 2410110088 |
+
 ## Recorded move agreement
 
 | Model | Top 1 | Top 5 | Median time |
